@@ -517,7 +517,7 @@ void StartTask04(void *argument)
 	/* Infinite loop */
 	for (;;) {
 		HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-		osDelay(77);	// 13Hz
+		osDelay(38);	// 13Hz
 	}
   /* USER CODE END StartTask04 */
 }
